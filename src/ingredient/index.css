@@ -1,0 +1,31 @@
+.top {
+	padding: 50px 10px;
+}
+
+.pizza-constructor {
+  display: flex;
+  width: 100%;
+}
+
+.checkbox {
+
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.checkbox p {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffb418;
+  font-size: 24px;
+}
+
+.checkbox label {
+  font-size: 18px;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}

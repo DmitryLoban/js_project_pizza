@@ -1,0 +1,60 @@
+.bottom {
+  display: flex;
+  padding: 0 60px;
+}
+
+.pizza-order {
+	border: 3px solid #f5e9d9;
+	border-radius: 10px;
+	width: 420px;
+  padding: 20px 50px;
+  font-size: 18px;
+  position: relative;
+}
+
+.pizza-order .title {
+  font-weight: 600;
+	padding-bottom: 10px;
+  color: #aa0e0e;
+  font-size: 24px;
+}
+
+.pizza-order button {
+  border: 0;
+  background: #fc0;
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pizza-order .price {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pizza-image {
+  /* width: 360px; */
+  height: 360px;
+  background: url("img/pizza.png") no-repeat;
+  background-size: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 180px;
+  height: 180px;
+  opacity: 90%;
+  background-color: #fff;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.confirm {
+  position: absolute;
+  bottom: 10px;
+}
